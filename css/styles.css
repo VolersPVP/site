@@ -1,0 +1,131 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+.bulma-loader-mixin {
+    @include loader;
+}
+
+a:link {
+    color: aliceblue;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+a:active {
+    color: aliceblue;
+}
+
+.bulma-hamburger-mixin {
+    @include hamburger(2.5rem);
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.waves {
+    position: flex;
+    bottom: 100%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: white;
+}
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+@media (max-width: 768px) {
+    .waves {
+        height: 100%;
+        min-height: 40px;
+    }
+    .content {
+        height: 30vh;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
+
+.subtitle {
+    color: aliceblue;
+}
+
+.title {
+    color: aliceblue;
+}
+body {
+  background-color: #FF0000;
+  animation: rgb-background-color 23s infinite;
+  animation-timing-function: linear;
+}
+@keyframes rgb-background-color {
+  0% {
+    background-color: #FF0000;
+  }
+  16.7% {
+    background-color: #FFFF00;
+  }
+  33.3% {
+    background-color: #00FF00;
+  }
+  50% {
+    background-color: #0000FF;
+  }
+  66.7% {
+    background-color: #0000FF;
+  }
+  83.3% {
+    background-color: #FF00FF;
+  }
+  100% {
+    background-color: #FF0000;
+  }
+}
