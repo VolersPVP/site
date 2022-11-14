@@ -1,106 +1,332 @@
+<!--
+
+	Template made by: Rick Klaasboer
+	www.rickklaasboer.online
+
+	Version: 1.0.0
+
+	Note: All the images on the demo are not stored locally, 
+	but stored on other servers, 
+	if they're not showing, one of the links could be broken!
+
+	Need support?
+	PM me on SpigotMC (https://www.spigotmc.org/members/gewoonrick.31710/)
+
+	See anything broken?
+	PM me on SpigotMC (https://www.spigotmc.org/members/gewoonrick.31710/)
+
+-->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="VolersPVP" type="image/x-icon" href="/images/favicon.ico">
-    <script src="./scripts/title.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Volers PVP</title>
+	<title>VolersPVP</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	<!-- Custom CSS for this template -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.js">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
 </head>
+<body>
 
-<body class="">
-    <section id="navbar">
-    </section>
-    <section id="main">
-        <div class="container">
-            <div class="is-size-2 has-text-weight-bold has-text-centered">
-                <a href="./redirects.html">VolersPVP</a>
-            </div>
-            <div class="subtitle">
-                <span>VolersPVP let's you gain advantage</span>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button> 
+	
+	<!-- Navbar -->
+	<div class="topnav" id="myTopnav">
+		<div class="max-width">
+			  <a href="#head">Home</a>
+			  <a href="#about">About</a>
+			  <a href="#gamemodes">Gamemodes</a>
+			  <a href="#vote">Vote</a>
+			  <a href="#staff">Staff</a>
+		  	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+	</div>
+	<!-- End Navbar -->
 
+	<!-- Header (Banner) -->
+	<header id="head" class="parallax">
+		<h1>A Minecraft Server</h1>
+		<h3>play.yourdomain.com</h3>
+	</header>
+	<!-- End Header -->
 
-    </section>
-    <section id="footer">
-        <div>
-            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-            <defs>
-            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-            </defs>
-            <g class="parallax">
-            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
-            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-            <use xlink:href="#gentle-wave" x="48" y="7" fill="rgb(255,255,255,0.2)" />
-            </g>
-            </svg>
+	<!-- About Section -->
+	<section id="about">
+		<h1>OUR SERVER</h1>
+		<p>Some of our features.</p>
+		<hr>
+		<!-- First row of features -->
+		<div class="row features">
+			<div class="col">
+				<i class="fab fa-cloudscale feature"></i>
+				<h2>We're fast, like sonic</h2>
+				<p>Our servers are so blazing fast, even Sonic can't keep up, amazing, right?!</p>
+			</div>
+			<div class="col">
+				<i class="fas fa-users feature"></i>
+				<h2>Great Community</h2>
+				<p>We've got an amazing community, it's always fun on our server!</p>
+			</div>
+			<div class="col">
+				<i class="fas fa-shield-alt feature"></i>
+				<h2>Always online</h2>
+				<p>Our server has a 99.9% Uptime, so you'll be playing whenever you want!</p>
+			</div>
+		</div>
+		<!-- End first row -->
 
+		<!-- Second row of features -->
+		<div class="row features">
+			<div class="col">
+				<i class="far fa-calendar-alt feature"></i>
+				<h2>Amazing events</h2>
+				<p>We've got some super fun events in store for you, it's amazing, seriously, the best!</p>
+			</div>
+			<div class="col">
+				<i class="fas fa-code-branch feature"></i>
+				<h2>Custom Plugins</h2>
+				<p>We've created some custom plugins for our server, they're amazing, you'll like them!</p>
+			</div>
+			<div class="col">
+				<i class="fas fa-fighter-jet feature"></i>
+				<h2>Fighter Jet</h2>
+				<p>This isn't a feature but I just really like fighter jets, nah it's a filler.</p>
+			</div>
+		</div>
+		<!-- End second row -->
 
-        </div>
-        </div>
-    </section>
+		<!-- Note: You can add as many feature rows as you like. -->
+	</section>
+	<!-- End about section -->
+
+	<!-- Banner 1 -->
+	<section id="banner" class="parallax">
+		<h1>WHAT ARE YOU WAITING FOR?</h1>
+		<h2>JOIN OUR SERVER NOW AT <i>PLAY.YOURDOMAIN.COM</i></h2>
+	</section>
+	<!-- End Banner 1 -->
+
+	<!-- Gamemodes Section -->
+	<section id="gamemodes">
+		<h1>GAMEMODES</h1>
+		<p>Stuff and things you can do on our server</p>
+		<hr>
+		<!-- First Gamemode -->
+		<div class="row fixed-width">
+			<div class="col-md mode">
+				<h2>SURVIVAL</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu elementum justo. Morbi in venenatis dui. Mauris quis efficitur orci, ut venenatis massa. Pellentesque gravida ante sit amet condimentum tristique. Suspendisse at gravida nunc, mattis sagittis velit. Pellentesque molestie mauris risus, et elementum metus mattis sit amet. Aliquam id ex ac augue tempor convallis. Nunc id consequat nibh. Suspendisse rhoncus nulla at nisl egestas vulputate vel vitae ex. In est nibh, tempus vitae ipsum vel, eleifend dictum diam. Ut dapibus massa sed turpis dictum pretium. Mauris tempus sapien sit amet turpis sodales, sit amet sollicitudin augue tincidunt. Donec ullamcorper suscipit laoreet.</p>
+			</div>
+			<!-- Gamemode Image -->
+			<div class="col-md img">
+				<img class="res-img" src="https://via.placeholder.com/1920x1080">
+			</div>
+			<!-- End Gamemode Image -->
+		</div>
+		<!-- End First Gamemode -->
+		<section class="gray">
+			<!-- Second Gamemode -->
+			<div class="row fixed-width">
+				<!-- Image Second Gamemode -->
+					<div class="col-md img">
+						<img class="res-img" src="https://via.placeholder.com/1920x1080">
+					</div>
+				<!-- End Image Second Gamemode -->
+				<div class="col-md mode">
+					<h2>FACTIONS</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu elementum justo. Morbi in venenatis dui. Mauris quis efficitur orci, ut venenatis massa. Pellentesque gravida ante sit amet condimentum tristique. Suspendisse at gravida nunc, mattis sagittis velit. Pellentesque molestie mauris risus, et elementum metus mattis sit amet. Aliquam id ex ac augue tempor convallis. Nunc id consequat nibh. Suspendisse rhoncus nulla at nisl egestas vulputate vel vitae ex. In est nibh, tempus vitae ipsum vel, eleifend dictum diam. Ut dapibus massa sed turpis dictum pretium. Mauris tempus sapien sit amet turpis sodales, sit amet sollicitudin augue tincidunt. Donec ullamcorper suscipit laoreet.</p>
+				</div>
+			</div>
+			<!-- End Second Gamemode -->
+		</section>
+		<!-- Start Third Gamemode -->
+		<div class="row fixed-width">
+			<div class="col-md mode">
+				<h2>CREATIVE</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu elementum justo. Morbi in venenatis dui. Mauris quis efficitur orci, ut venenatis massa. Pellentesque gravida ante sit amet condimentum tristique. Suspendisse at gravida nunc, mattis sagittis velit. Pellentesque molestie mauris risus, et elementum metus mattis sit amet. Aliquam id ex ac augue tempor convallis. Nunc id consequat nibh. Suspendisse rhoncus nulla at nisl egestas vulputate vel vitae ex. In est nibh, tempus vitae ipsum vel, eleifend dictum diam. Ut dapibus massa sed turpis dictum pretium. Mauris tempus sapien sit amet turpis sodales, sit amet sollicitudin augue tincidunt. Donec ullamcorper suscipit laoreet.</p>
+			</div>
+			<!-- Image Third Gamemode -->
+			<div class="col-md img">
+				<img class="res-img" src="https://via.placeholder.com/1920x1080">
+			</div>
+			<!-- End Image Third Gamemode -->
+		</div>
+		<!-- End Third Gamemode -->
+	</section>
+	<!-- End Gamemode Section -->
+
+	<!-- Start Second Banner -->
+	<section id="banner2" class="parallax">
+		<h1>LOOKING TO BUY A RANK?</h1>
+		<h2>CHECK OUT THE STORE AT <i><a href="#">STORE.YOURDOMAIN.COM</a></i></h2>
+	</section>
+	<!-- End Second Banner -->
+
+	<!-- Vote Section -->
+	<section id="vote">
+		<h1>Our Social-Media</h1>
+		<p>Join us for updates!</p>
+		<hr>
+		<div class="row votelist">
+			<!-- First Vote Link -->
+			<div class="col-md voteblock">
+				<img class="res-img-sm" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6918e57475a843f59f_icon_clyde_black_RGB.svg">
+				<h2>Discord</h2>
+				<a href="https://discord.gg/t42BrVhaqt">Join</a>
+			</div>
+			<!-- End First Vote Link -->
+
+			<!-- Second Vote Link -->
+			<div class="col-md voteblock">
+				<img class="res-img-sm" src="https://cdn.discordapp.com/attachments/1014970472816975934/1041357997772898314/YT-icon.png">
+				<h2>YouTube</h2>
+				<a href="https://www.youtube.com/channel/UCfgVKBpMzvJb26N3Vof7Cyw">Subscribe</a>
+			</div>
+			<!-- End Second Vote Link -->
+
+			<!-- Third Vote Link -->
+			<div class="col-md voteblock">
+				<img class="res-img-sm" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
+				<h2>Github</h2>
+				<a href="https://github.com/VolersPVP">Follow</a>
+			</div>
+			<!-- End Third Vote Link -->
+		</div>
+
+		<!-- Note -->
+		<p></p>
+	</section>
+	<!-- End Vote Section -->
+
+	<!-- Third Banner -->
+	<section id="banner3" class="parallax">
+		<h1>HAVE A QUESTION?</h1>
+		<h2>CONTACT US AT <i><a href="mailto:#">volers.contact@proton.me</a></i></h2>
+	</section>
+	<!-- End Third Section -->
+
+	<!-- Staff Section -->
+	<section id="staff">
+		<h1>OUR STAFF</h1>
+		<p>The staff members of our server</p>
+		<hr>
+		<!-- First Row Staff -->
+		<div class="row stafflist">
+			<!-- First Staff Member -->
+			<div class="col-md staffblock">
+				<img width="100px;" src="https://cdn.discordapp.com/avatars/727115499602706454/f5c5b04269428fa10fa434419bcf9b49.png?size=1024">
+				<h2>𝔪𝔳♱𝔦#0001</h2>
+				<p>Owner</p>
+			</div>
+			<!-- End First Staff Member -->
+
+			<!-- Second Staff Member -->
+			<div class="col-md staffblock">
+				<img width="100px;" src="https://cdn.discordapp.com/avatars/969942453463425074/083e03929db3ad51eec0e779f698a7e9.gif?size=1024">
+				<h2>Ж Ч ℤ#2481</h2>
+				<p>Developer</p>
+			</div>
+			<!-- End Second Staf Member -->
+
+			<!-- Third Staff Member -->
+			<div class="col-md staffblock">
+				<img width="100px;" src="https://cdn.discordapp.com/avatars/956308191325605998/21f9d5ca6c4cbbd464e6377282094851.png?size=1024">
+				<h2>shiginima#5078</h2>
+				<p>Admin</p>
+			</div>
+			<!-- End Third Staff Member -->
+		</div>
+		</div>
+	</section>>
+	<!-- End Staff Section -->
+
+	<!-- Footer -->
+	<footer>
+		<div class="footer">
+			<div class="copyright-notice">
+				<!-- !! Replace this with your own domain !! -->
+				<p>volers.pl &copy; | All rights reserved</p>
+				<!-- If you want to, you're allowed to delete these credits. But if you want to support my work, please leave it. -->
+				<p>Made with <font color="red">❤</font> by <a target="_blank" href="https://www.rickklaasboer.online/">Rick Klaasboer</a>.</font></p>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+	<!-- Smooth Scrolling Script (from https://goo.gl/uWLqWu) | Do not touch if you don't know what you're doing! -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
+
+		      // Store hash
+		      var hash = this.hash;
+
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 100, function(){
+		   
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    } // End if
+		  });
+		});
+	</script>
+	<!-- End Smooth Scrolling Script -->
+
+	<script>
+		function myFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+		}
+	</script>
+
+	<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("myBtn").style.display = "block";
+	    } else {
+	        document.getElementById("myBtn").style.display = "none";
+	    }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	    document.body.scrollTop = 0;
+	    document.documentElement.scrollTop = 0;
+	}
+	</script>
+
 </body>
-
 </html>
