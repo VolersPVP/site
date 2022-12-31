@@ -1,323 +1,829 @@
-<!--
-
-	Template made by: Rick Klaasboer
-	www.rickklaasboer.online
-
-	Version: 1.0.0
-
-	Note: All the images on the demo are not stored locally, 
-	but stored on other servers, 
-	if they're not showing, one of the links could be broken!
-
-	Need support?
-	PM me on SpigotMC (https://www.spigotmc.org/members/gewoonrick.31710/)
-
-	See anything broken?
-	PM me on SpigotMC (https://www.spigotmc.org/members/gewoonrick.31710/)
-
--->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>VolersPVP</title>
-	<script src="./scripts/title.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
-	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-
-	<!-- Custom CSS for this template -->
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-
-	<!-- Font -->
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-
-	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.min.css">
-	<link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.js">
-
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-
-</head>
-<body>
-
-	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button> 
-	
-	<!-- Navbar -->
-	<div class="topnav" id="myTopnav">
-		<div class="max-width">
-			  <a href="#head">Home</a>
-			  <a href="#about">About</a>
-			  <a href="#gamemodes">Gamemodes</a>
-			  <a href="#vote">Vote</a>
-			  <a href="#staff">Staff</a>
-		  	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-		</div>
-	</div>
-	<!-- End Navbar -->
-
-	<!-- Header (Banner) -->
-	<header id="head" class="parallax">
-		<h1>VolersPVP</h1>
-		<a href="https://discord.gg/t42BrVhaqt"><h3>Join Discord</h3></a>
-	</header>
-	<!-- End Header -->
-
-	<!-- About Section -->
-	<section id="about">
-		<h1>VolersPVP</h1>
-		<p>Our advantages over other network optimizers.</p>
-		<hr>
-		<!-- First row of features -->
-		<div class="row features">
-			<div class="col">
-				<i class="fab fa-cloudscale feature"></i>
-				<h2>Snappy</h2>
-				<p>Volers is fast and relaiable, you do your pvp, we handle your internet.</p>
-			</div>
-			<div class="col">
-				<i class="fas fa-users feature"></i>
-				<h2>Fast Help</h2>
-				<p>If you have any questions our helpers are always here for you.</p>
-			</div>
-			<div class="col">
-				<i class="fas fa-shield-alt feature"></i>
-				<h2>Not bannable</h2>
-				<p>We do not directly interact with Minecraft in any way, and it doesn't violate rules on cheating since it only modifies your network configuration.</p>
-			</div>
-		</div>
-		<!-- End first row -->
-
-		<!-- Second row of features -->
-		<div class="row features">
-			<div class="col">
-				<i class="far fa-calendar-alt feature"></i>
-				<h2>Frequent updates</h2>
-				<p>We are frequently updating Volers so it suits your needs.</p>
-			</div>
-		</div>
-		<!-- End second row -->
-
-		<!-- Note: You can add as many feature rows as you like. -->
-	</section>
-	<!-- End about section -->
-
-	<!-- Banner 1 -->
-	<section id="banner" class="parallax">
-		<h1>WHAT ARE YOU WAITING FOR?</h1>
-		<h2>BUY VOLERS AT OUR <i><a href="https://discord.gg/t42BrVhaqt">DISCORD</a></i></h2>
-	</section>
-	<!-- End Banner 1 -->
-
-	<!-- Gamemodes Section -->
-	<section id="gamemodes">
-		<h1>FAQ</h1>
-		<p>Frequently asked questions and media showcasing VolersPVP</p>
-		<hr>
-		<!-- First Gamemode -->
-		<div class="row fixed-width">
-			<div class="col-md mode">
-				<h2>How it works?</h2>
-				<p>Volers enhances your internet connection using its advanced algorithm. It lowers knockback and optimizes hit registering.</p>
-			</div>
-			<!-- Gamemode Image -->
-			<div class="col-md img">
-				<iframe width="480" height="280" src="https://www.youtube.com/embed/nCDb7DJESh4" title="Volers Pvp Expirience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
-			</div>
-			<!-- End Gamemode Image -->
-		</div>
-		<!-- End First Gamemode -->
-		<section class="gray">
-			<!-- Second Gamemode -->
-			<div class="row fixed-width">
-				<!-- Image Second Gamemode -->
-					<div class="col-md img">
-						<iframe width="480" height="280" src="https://youtube.com/embed/e7kLaLV6vJ8" title="VolersPvP Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-				<!-- End Image Second Gamemode -->
-				<div class="col-md mode">
-					<h2>Is it a virus?</h2>
-					<p>No there are few false positives but our code is audited by cyber-sec specialists. These false positives are likely caused becouse our program modifies your internet packets.</p>
-				</div>
-			</div>
-			<!-- End Second Gamemode -->
-		</section>
-		<!-- Start Third Gamemode -->
-		<div class="row fixed-width">
-			<div class="col-md mode">
-				<h2>CREATIVE</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu elementum justo. Morbi in venenatis dui. Mauris quis efficitur orci, ut venenatis massa. Pellentesque gravida ante sit amet condimentum tristique. Suspendisse at gravida nunc, mattis sagittis velit. Pellentesque molestie mauris risus, et elementum metus mattis sit amet. Aliquam id ex ac augue tempor convallis. Nunc id consequat nibh. Suspendisse rhoncus nulla at nisl egestas vulputate vel vitae ex. In est nibh, tempus vitae ipsum vel, eleifend dictum diam. Ut dapibus massa sed turpis dictum pretium. Mauris tempus sapien sit amet turpis sodales, sit amet sollicitudin augue tincidunt. Donec ullamcorper suscipit laoreet.</p>
-			</div>
-			<!-- Image Third Gamemode -->
-			<div class="col-md img">
-				<img class="res-img" src="https://via.placeholder.com/1920x1080">
-			</div>
-			<!-- End Image Third Gamemode -->
-		</div>
-		<!-- End Third Gamemode -->
-	</section>
-	<!-- End Gamemode Section -->
-
-	<!-- Start Second Banner -->
-	<section id="banner2" class="parallax">
-		<h1>LOOKING TO BUY A RANK?</h1>
-		<h2>CHECK OUT THE STORE AT <i><a href="#">STORE.YOURDOMAIN.COM</a></i></h2>
-	</section>
-	<!-- End Second Banner -->
-
-	<!-- Vote Section -->
-	<section id="vote">
-		<h1>Our Social-Media</h1>
-		<p>Join us for updates!</p>
-		<hr>
-		<div class="row votelist">
-			<!-- First Vote Link -->
-			<div class="col-md voteblock">
-				<img class="res-img-sm" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6918e57475a843f59f_icon_clyde_black_RGB.svg">
-				<h2>Discord</h2>
-				<a href="https://discord.gg/t42BrVhaqt">Join</a>
-			</div>
-			<!-- End First Vote Link -->
-
-			<!-- Second Vote Link -->
-			<div class="col-md voteblock">
-				<img class="res-img-sm" src="https://cdn.discordapp.com/attachments/1014970472816975934/1041357997772898314/YT-icon.png">
-				<h2>YouTube</h2>
-				<a href="https://www.youtube.com/channel/UCfgVKBpMzvJb26N3Vof7Cyw">Subscribe</a>
-			</div>
-			<!-- End Second Vote Link -->
-
-			<!-- Third Vote Link -->
-			<div class="col-md voteblock">
-				<img class="res-img-sm" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
-				<h2>Github</h2>
-				<a href="https://github.com/VolersPVP">Follow</a>
-			</div>
-			<!-- End Third Vote Link -->
-		</div>
-
-		<!-- Note -->
-		<p></p>
-	</section>
-	<!-- End Vote Section -->
-
-	<!-- Third Banner -->
-	<section id="banner3" class="parallax">
-		<h1>HAVE A QUESTION?</h1>
-		<h2>CONTACT US AT <i><a href="mailto:#">volers.contact@proton.me</a></i></h2>
-	</section>
-	<!-- End Third Section -->
-
-	<!-- Staff Section -->
-	<section id="staff">
-		<h1>OUR STAFF</h1>
-		<p>The staff members of our server</p>
-		<hr>
-		<!-- First Row Staff -->
-		<div class="row stafflist">
-			<!-- First Staff Member -->
-			<div class="col-md staffblock">
-				<img width="100px;" src="https://cdn.discordapp.com/avatars/727115499602706454/f5c5b04269428fa10fa434419bcf9b49.png?size=1024">
-				<h2>𝔪𝔳♱𝔦#0001</h2>
-				<p>Owner</p>
-			</div>
-			<!-- End First Staff Member -->
-
-			<!-- Second Staff Member -->
-			<div class="col-md staffblock">
-				<img width="100px;" src="https://cdn.discordapp.com/avatars/969942453463425074/083e03929db3ad51eec0e779f698a7e9.gif?size=1024">
-				<h2>Ж Ч ℤ#2481</h2>
-				<p>Developer</p>
-			</div>
-			<!-- End Second Staf Member -->
-
-			<!-- Third Staff Member -->
-			<div class="col-md staffblock">
-				<img width="100px;" src="https://cdn.discordapp.com/avatars/956308191325605998/21f9d5ca6c4cbbd464e6377282094851.png?size=1024">
-				<h2>shiginima#5078</h2>
-				<p>Admin</p>
-			</div>
-			<!-- End Third Staff Member -->
-		</div>
-		</div>
-	</section>>
-	<!-- End Staff Section -->
-
-	<!-- Footer -->
-	<footer>
-		<div class="footer">
-			<div class="copyright-notice">
-				<!-- !! Replace this with your own domain !! -->
-				<p>volers.pl &copy; | All rights reserved</p>
-				<!-- If you want to, you're allowed to delete these credits. But if you want to support my work, please leave it. -->
-				<p>Made with <font color="red">❤</font> by <a target="_blank" href="https://www.rickklaasboer.online/">Rick Klaasboer</a>.</font></p>
-			</div>
-		</div>
-	</footer>
-	<!-- End Footer -->
-
-	<!-- Smooth Scrolling Script (from https://goo.gl/uWLqWu) | Do not touch if you don't know what you're doing! -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-		$(document).ready(function(){
-		  // Add smooth scrolling to all links
-		  $("a").on('click', function(event) {
-
-		    // Make sure this.hash has a value before overriding default behavior
-		    if (this.hash !== "") {
-		      // Prevent default anchor click behavior
-		      event.preventDefault();
-
-		      // Store hash
-		      var hash = this.hash;
-
-		      // Using jQuery's animate() method to add smooth page scroll
-		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-		      $('html, body').animate({
-		        scrollTop: $(hash).offset().top
-		      }, 100, function(){
-		   
-		        // Add hash (#) to URL when done scrolling (default click behavior)
-		        window.location.hash = hash;
-		      });
-		    } // End if
-		  });
-		});
-	</script>
-	<!-- End Smooth Scrolling Script -->
-
-	<script>
-		function myFunction() {
-		    var x = document.getElementById("myTopnav");
-		    if (x.className === "topnav") {
-		        x.className += " responsive";
-		    } else {
-		        x.className = "topnav";
-		    }
-		}
-	</script>
-
-	<script>
-	// When the user scrolls down 20px from the top of the document, show the button
-	window.onscroll = function() {scrollFunction()};
-
-	function scrollFunction() {
-	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-	        document.getElementById("myBtn").style.display = "block";
-	    } else {
-	        document.getElementById("myBtn").style.display = "none";
-	    }
-	}
-
-	// When the user clicks on the button, scroll to the top of the document
-	function topFunction() {
-	    document.body.scrollTop = 0;
-	    document.documentElement.scrollTop = 0;
-	}
-	</script>
-
-</body>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VolersPvP</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="icon" href="favicons/3518--favicon.ico" />
+    <meta name="next-head-count" content="5" />
+    <link
+      rel="preload"
+      href="/_next/static/css/cb2caf20db1d89c3d878.css"
+      as="style"
+    />
+    <link rel="stylesheet" href="css/css-cb2caf20db1d89c3d878.css" />
+    <link
+      rel="preload"
+      href="/_next/static/hwVWM-AwmHzdL8eQPCLQY/pages/_app.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/hwVWM-AwmHzdL8eQPCLQY/pages/index.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/runtime/webpack-ba1a2c47371316e3142f.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/framework.ff834a0bdd680269bce4.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/commons.7450d762d0a91bae8bd1.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/12bbd2dce5a08f38715b78b5b5b0f2c04db3dd76.8d85629742f2141fd44e.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/25906c08925ced395b34fb76703d71ec23469ee9.ac29a6d7f9aeb72019c5.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/runtime/main-65369f8634a0d8b2b674.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/b00ae7833b8d5516977e8862f89522570f6a82b2.be62a2c5eaf1ae4a60f9.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/1eedc9b748a18eb77076d394861e93290009744d.920fb9e74f315c5b7594.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/9ce2a564b0f88394df0aed49bea738cae9e193fc.418388363a42b7ef49c2.js"
+      as="script"
+    />
+  </head>
+  <body>
+    <div id="__next">
+      <div class="font-sans antialiased bg-gray-50">
+        <div class="relative overflow-hidden bg-white">
+          <div class="max-w-screen-xl mx-auto">
+            <div
+              class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
+            >
+              <div class="px-4 pt-6 sm:px-6 lg:px-8">
+                <nav
+                  class="relative flex items-center justify-between sm:h-10 lg:justify-start"
+                >
+                  <div
+                    class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0"
+                  >
+                    <div
+                      class="flex items-center justify-between w-full md:w-auto"
+                    >
+                      <a href="https://discord.gg/mewG8FpvjC"
+                        ><img
+                          class="w-auto h-8 sm:h-10"
+                          src="images/logo.png"
+                          alt=""
+                      /></a>
+                      <div class="flex items-center -mr-2 md:hidden">
+                        <button
+                          type="button"
+                          class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
+                        >
+                          <svg
+                            class="w-6 h-6"
+                            stroke="currentColor"
+                            fill="none"
+                            viewbox="0 0 24 24"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h16M4 18h16"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hidden md:block md:ml-10 md:pr-4">
+                    <a
+                      class="ml-8 font-medium text-gray-500 whitespace-no-wrap transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+                      href="https://discord.gg/mewG8FpvjC"
+                      >How it Works</a
+                    ><a
+                      class="ml-8 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+                      href="https://discord.gg/mewG8FpvjC"
+                      >About</a
+                    ><a
+                      class="ml-8 font-medium transition ease-in-out text-regblue-600 relative z-50 hover:text-regblue-500 focus:outline-none focus:text-blue-700"
+                      href="https://discord.gg/mewG8FpvjC"
+                      >Purchase</a
+                    >
+                  </div>
+                </nav>
+              </div>
+              <div
+                class="px-4 mx-auto sm:px-6 lg:px-8 max-w-screen-xl mt-10 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28"
+              >
+                <div class="sm:text-center lg:text-left">
+                  <h2
+                    class="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
+                  >
+                    Program to<br /><span class="text-regblue-600"
+                      >Optimize your internet for pvp</span
+                    >
+                  </h2>
+                  <p
+                    class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+                  >
+                    Our Program provides faster hits, less lag, and a better knockback
+                  </p>
+                  <div
+                    class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
+                  >
+                    <div class="rounded-md shadow cursor-pointer">
+                      <a
+                        class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md bg-orange-500 hover:bg-orange-400 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
+                        href="https://discord.gg/mewG8FpvjC"
+                        >Get started</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <svg
+                class="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block"
+                fill="currentColor"
+                viewbox="0 0 100 100"
+                preserveaspectratio="none"
+              >
+                <polygon points="50,0 100,0 50,100 0,100"></polygon>
+              </svg>
+            </div>
+          </div>
+          <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+            <img
+              class="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full"
+              src="images/images-hero.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="py-16 overflow-hidden border-t border-gray-200 bg-gray-50 lg:py-24"
+        >
+          <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-screen-xl relative">
+            <svg
+              class="absolute hidden transform -translate-x-1/2 lg:block left-full -translate-y-1/4"
+              width="404"
+              height="784"
+              fill="none"
+              viewbox="0 0 404 784"
+            >
+              <defs>
+                <pattern
+                  id="svg-pattern-squares-1"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternunits="userSpaceOnUse"
+                >
+                  <rect
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    class="text-gray-200"
+                    fill="currentColor"
+                  ></rect>
+                </pattern>
+              </defs>
+            </svg>
+            <div class="relative">
+              <h3
+                class="text-3xl font-extrabold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl sm:leading-10"
+              >
+                Made by the community for the community
+              </h3>
+              <p
+                class="max-w-3xl mx-auto mt-4 text-xl leading-7 text-center text-gray-500"
+              >
+                VolersPvP is designed to give you a <b>decisive</b> edge in
+                Minecraft PvP. Extensive testing and research have been
+                conducted to ensure you have the greatest advantage against your
+                opponents! VolersPvP optimizes the way your computer sends and
+                receives data for Minecraft PvP.
+              </p>
+            </div>
+            <div
+              class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center"
+            >
+              <div class="relative">
+                <h4
+                  class="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9"
+                >
+                  Having a strong connection is essential for success in
+                  Minecraft PvP.
+                </h4>
+                <p class="mt-3 text-lg leading-7 text-gray-500">
+                  This is because the game relies on TCP (transmission control
+                  protocol) to send data quickly and accurately, and this
+                  protocol was built into the game from the beginning. As such,
+                  the connection settings have a much greater effect in
+                  Minecraft PvP than in other games.
+                </p>
+                <ul class="mt-10">
+                  <li>
+                    <div class="flex">
+                      <div class="flex-shrink-0">
+                        <div
+                          class="flex items-center justify-center w-12 h-12 text-white rounded-md bg-regblue-500"
+                        >
+                          <svg
+                            class="w-6 h-6"
+                            stroke="currentColor"
+                            fill="none"
+                            viewbox="0 0 24 24"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="ml-4">
+                        <h5 class="text-lg font-medium leading-6 text-gray-900">
+                          Gain the edge in PvP
+                        </h5>
+                        <p class="mt-2 text-base leading-6 text-gray-500">
+                          VolersPvP alters how your PC processes incoming and
+                          outgoing packets. As Minecraft employs TCP, this can
+                          be especially noticed in hit registration, knockback,
+                          rodding, and anything related to connecting!
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mt-10">
+                    <div class="flex">
+                      <div class="flex-shrink-0">
+                        <div
+                          class="flex items-center justify-center w-12 h-12 text-white rounded-md bg-regblue-500"
+                        >
+                          <svg
+                            class="w-6 h-6"
+                            stroke="currentColor"
+                            fill="none"
+                            viewbox="0 0 24 24"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="ml-4">
+                        <h5 class="text-lg font-medium leading-6 text-gray-900">
+                          Simple settings
+                        </h5>
+                        <p class="mt-2 text-base leading-6 text-gray-500">
+                          VolersPvP makes life easy by offering only a few straightforward settings and keeping the complexities out of sight. Avoid the hassle of managing numerous unimportant settings and save yourself time.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mt-10">
+                    <div class="flex">
+                      <div class="flex-shrink-0">
+                        <div
+                          class="flex items-center justify-center w-12 h-12 text-white rounded-md bg-regblue-500"
+                        >
+                          <svg
+                            class="w-6 h-6"
+                            stroke="currentColor"
+                            fill="none"
+                            viewbox="0 0 24 24"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M13 10V3L4 14h7v7l9-11h-7z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="ml-4">
+                        <h5 class="text-lg font-medium leading-6 text-gray-900">
+                          Playing on VolersPvP <b>does not </b>involve cheating.
+                        </h5>
+                        <p class="mt-2 text-base leading-6 text-gray-500">
+                          VolersPvP does not change Minecraft in any manner,
+                          nor does it act as a network limiter or lag switcher.
+                          As it only alters existing settings on your computer,
+                          VolersPvP does not break any cheating regulations.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="relative mt-10 -mx-4 lg:mt-0">
+                <svg
+                  class="absolute transform -translate-x-1/2 translate-y-16 left-1/2 lg:hidden"
+                  width="784"
+                  height="404"
+                  fill="none"
+                  viewbox="0 0 784 404"
+                >
+                  <defs>
+                    <pattern
+                      id="svg-pattern-squares-2"
+                      x="0"
+                      y="0"
+                      width="20"
+                      height="20"
+                      patternunits="userSpaceOnUse"
+                    >
+                      <rect
+                        x="0"
+                        y="0"
+                        width="4"
+                        height="4"
+                        class="text-gray-200"
+                        fill="currentColor"
+                      ></rect>
+                    </pattern>
+                  </defs>
+                  <rect
+                    width="784"
+                    height="404"
+                    fill="url(#svg-pattern-squares-2)"
+                  ></rect></svg
+                ><img
+                  class="relative mx-auto lg:bottom-10"
+                  width="490"
+                  src="images/images-homepage-feature-1.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <svg
+              class="absolute hidden transform translate-x-1/2 translate-y-12 lg:block right-full"
+              width="404"
+              height="784"
+              fill="none"
+              viewbox="0 0 404 784"
+            >
+              <defs>
+                  <rect
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    class="text-gray-200"
+                    fill="currentColor"
+                  ></rect>
+              </defs>
+            </svg>
+            <div class="relative mt-12 sm:mt-16 lg:mt-24">
+              <div
+                class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center"
+              ></div>
+               <center> <d<div class="lg:col-start-2">
+                  <h4
+                    class="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9"
+                  ><center>Our Team</center></h4><br>
+                
+                  <!-- Insert 4 squares for avatars and nicknames here -->
+                
+                  <div class="avatar-container">
+                    <div class="avatar-row">
+                      <div class="avatar">
+                        <img src="https://cdn.discordapp.com/avatars/324992951120035842/7cf6eec5fb2f78105a05a8e069bf02ed.gif?size=1024" alt="Avatar 1">
+                        <div class="avatar-text">Vanish</div>
+                      </div>
+                      <div class="avatar">
+                        <img src="https://cdn.discordapp.com/guilds/973274486155665490/users/727115499602706454/avatars/f067fcf0d85ee24b72dade8cde235af3.png?size=1024" alt="Avatar 2">
+                        <div class="avatar-text">Mvti</div>
+                      </div>
+                      <div class="avatar">
+                        <img src="https://cdn.discordapp.com/avatars/969942453463425074/083e03929db3ad51eec0e779f698a7e9.gif?size=1024" alt="Avatar 3">
+                        <div class="avatar-text">XYZ</div>
+                      </div>
+                      <div class="avatar">
+                        <img src="https://cdn.discordapp.com/avatars/688457574848266289/a3a7436070f67337b7da7e22207ae63e.png?size=1024" alt="Avatar 4">
+                        <div class="avatar-text">Panciasio</div>
+                    </div>
+                  </div>
+                  
+                    </div>
+                  </div>
+                </center>
+                </div>
+                <div class="relative mt-10 -mx-4 lg:mt-0 lg:col-start-1">
+                  <svg
+                    class="absolute transform -translate-x-1/2 translate-y-16 left-1/2 lg:hidden"
+                    width="784"
+                    height="404"
+                    fill="none"
+                    viewbox="0 0 784 404"
+                  >
+                    <defs>
+                      <pattern
+                        id="svg-pattern-squares-4"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                        patternunits="userSpaceOnUse"
+                      >
+                        <rect
+                          x="0"
+                          y="0"
+                          width="4"
+                          height="4"
+                          class="text-gray-200"
+                          fill="currentColor"
+                        ></rect>
+                      </pattern>
+                    </defs>
+                    <rect
+                      width="784"
+                      height="404"
+                      fill="url(#svg-pattern-squares-4)"
+                    ></rect></svg
+                  ><img
+                    class="relative mx-auto top-6 lg:top-0"
+                    width="490"
+                    src="images/images-homepage-feature-2.png"
+                    alt=""
+                  />
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative overflow-hidden bg-regblue-700">
+          <svg
+            class="absolute transform opacity-25 top-full right-full translate-x-1/3 -translate-y-4/12 lg:translate-x-1/2 xl:-translate-y-1/2"
+            width="404"
+            height="404"
+            fill="none"
+            viewbox="0 0 404 404"
+          >
+            <defs>
+              <pattern
+                id="svg-pattern-squares-1"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternunits="userSpaceOnUse"
+              >
+                <rect
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  class="text-gray-200"
+                  fill="currentColor"
+                ></rect>
+              </pattern>
+            </defs>
+            <rect
+              width="404"
+              height="404"
+              fill="url(#svg-pattern-squares-1)"
+            ></rect>
+          </svg>
+          <div
+            class="px-4 mx-auto sm:px-6 lg:px-8 max-w-screen-xl pt-12 pb-10 sm:py-16 lg:py-20"
+          >
+            <div class="max-w-4xl mx-auto text-center">
+              <h2
+                class="text-3xl font-extrabold leading-9 text-Vanish sm:text-4xl sm:leading-10"
+              >
+                Players across the world trust us
+              </h2>
+              <p class="mt-3 text-xl leading-7 text-regblue-200 sm:mt-4">
+                When you purchase from VolersPvP, you will receive the finest
+                quality service available.
+              </p>
+            </div>
+            <div
+              class="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8 border-b border-regblue-300 pb-10"
+            >
+              <div>
+                <p class="text-5xl font-extrabold leading-none text-Vanish">
+                  2021
+                </p>
+                <p class="mt-2 text-lg font-medium leading-6 text-regblue-200">
+                  Best internet optimizer seller since
+                </p>
+              </div>
+              <div class="mt-10 sm:mt-0">
+                <p class="text-5xl font-extrabold leading-none text-Vanish">
+                  50+
+                </p>
+                <p class="mt-2 text-lg font-medium leading-6 text-regblue-200">
+                  Happy customers
+                </p>
+              </div>
+              <div class="mt-10 sm:mt-0">
+                <p class="text-5xl font-extrabold leading-none text-Vanish">
+                  9.9/10
+                </p>
+                <p class="mt-2 text-lg font-medium leading-6 text-regblue-200">
+                  Customers rated us
+                </p>
+              </div>
+            </div>
+            <div class="mt-10 relative flex justify-center items-center">
+              <button
+                class="cursor-pointer active:opacity-50 focus:outline-none"
+              >
+                <svg
+                  class="h-6 sm:h-8 md:h-12 text-Vanish"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewbox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M15 19l-7-7 7-7"></path>
+                </svg>
+              </button>
+              <div
+                class="overflow-hidden relative mx-2 sm:mx-4 w-full lg:w-2/3 h-spe-xl sm:h-spe-lg md:h-spe-md lg:h-spe-sm"
+              >
+                <blockquote
+                  class="w-full absolute top-1/2 left-1/2 transform -translate-x-full -translate-y-1/2 scale-90 opacity-0"
+                >
+                  <div
+                    class="max-w-3xl mx-auto text-sm sm:text-md md:text-lg font-medium leading-9 text-center text-regblue-100"
+                  >
+                    <p>
+                      &ldquo;<!-- -->My connection has been fluctuating less,
+                      and everything has been smooth sailing so far<!-- -->&rdquo;
+                    </p>
+                  </div>
+                  <footer class="mt-8">
+                    <div class="md:flex md:items-center md:justify-center">
+                      <div class="md:flex-shrink-0">
+                        <img
+                          class="w-10 h-10 mx-auto border rounded-full border-regblue-400"
+                          src="images/profiles-pathles-profile.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center"
+                      >
+                        <div class="text-base font-medium leading-6 text-white">
+                          Pathles
+                        </div>
+                        <svg
+                          class="hidden w-5 h-5 mx-1 text-regblue-500 md:block"
+                          fill="currentColor"
+                          viewbox="0 0 20 20"
+                        >
+                          <path d="M11 0h3L9 20H6l5-20z"></path>
+                        </svg>
+                        <div
+                          class="text-base font-medium leading-6 text-regblue-300"
+                        >
+                          Happy customer
+                        </div>
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+                <blockquote
+                  class="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                >
+                  <div
+                    class="max-w-3xl mx-auto text-sm sm:text-md md:text-lg font-medium leading-9 text-center text-regblue-100"
+                  >
+                    <p>
+                      &ldquo;<!-- -->We hope that you will enjoy using our program and that it will provide you with the best experience possible. We are proud of the effort we put in and are confident that it will be worth it. Thank you for trusting us with our project!<!-- -->&rdquo;
+                    </p>
+                  </div>
+                  <footer class="mt-8">
+                    <div class="md:flex md:items-center md:justify-center">
+                      <div class="md:flex-shrink-0">
+                        <img
+                          class="w-10 h-10 mx-auto border rounded-full border-regblue-400"
+                          src="images/logo_z_tlem.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center"
+                      >
+                        <div class="text-base font-medium leading-6 text-Vanish">
+                          VolersPvP
+                        </div>
+                        <svg
+                          class="hidden w-5 h-5 mx-1 text-regblue-500 md:block"
+                          fill="currentColor"
+                          viewbox="0 0 20 20"
+                        >
+                          <path d="M11 0h3L9 20H6l5-20z"></path>
+                        </svg>
+                        <div
+                          class="text-base font-medium leading-6 text-regblue-300"
+                        >
+                          Owner of VolersPvP
+                        </div>
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+                <blockquote
+                  class="w-full absolute top-1/2 left-1/2 transform translate-x-full -translate-y-1/2 scale-90 opacity-0"
+                >
+                  <div
+                    class="max-w-3xl mx-auto text-sm sm:text-md md:text-lg font-medium leading-9 text-center text-regblue-100"
+                  >
+                    <p>
+                      &ldquo;<!-- -->Awesome, thank you so much! It is amazing
+                      and really smooth.<!-- -->&rdquo;
+                    </p>
+                  </div>
+                  <footer class="mt-8">
+                    <div class="md:flex md:items-center md:justify-center">
+                      <div class="md:flex-shrink-0">
+                        <img
+                          class="w-10 h-10 mx-auto border rounded-full border-regblue-400"
+                          src="images/profiles-biologically-profile.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center"
+                      >
+                        <div class="text-base font-medium leading-6 text-white">
+                          o6o Biologically
+                        </div>
+                        <svg
+                          class="hidden w-5 h-5 mx-1 text-regblue-500 md:block"
+                          fill="currentColor"
+                          viewbox="0 0 20 20"
+                        >
+                          <path d="M11 0h3L9 20H6l5-20z"></path>
+                        </svg>
+                        <div
+                          class="text-base font-medium leading-6 text-regblue-300"
+                        >
+                          Happy customer
+                        </div>
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+              </div>
+              <button
+                class="cursor-pointer active:opacity-50 focus:outline-none"
+              >
+                <svg
+                  class="h-6 sm:h-8 md:h-12 text-white cursor-pointer"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewbox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white">
+          <div
+            class="px-4 mx-auto sm:px-6 lg:px-8 max-w-screen-xl py-12 text-center lg:py-16"
+          >
+            <h2
+              class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
+            >
+              Ready to get started?<br /><span class="text-regblue-600"
+                >Improve your Minecraft experience by purchasing
+                VolersPvP!</span
+              >
+            </h2>
+            <div class="flex justify-center mt-8">
+              <div class="inline-flex rounded-md shadow cursor-pointer">
+                <a
+                  class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md bg-orange-500 hover:bg-orange-400 focus:outline-none focus:shadow-outline"
+                  href="https://discord.gg/mewG8FpvjC"
+                  >Start now</a
+                >
+              </div>
+              <div class="inline-flex ml-3 cursor-pointer">
+                <a
+                  class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 transition duration-150 ease-in-out border border-transparent rounded-md text-regblue-700 bg-regblue-100 hover:text-regblue-600 hover:bg-regblue-50 focus:outline-none focus:shadow-outline focus:border-regblue-300"
+                  href="https://discord.gg/mewG8FpvjC"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white border-t border-gray-200">
+          <div
+            class="px-4 mx-auto sm:px-6 lg:px-8 max-w-screen-xl py-12 overflow-hidden"
+          >
+            <a
+                href="https://discord.gg/mewG8FpvjC"
+                target="_blank"
+                class="ml-6 text-gray-400 hover:text-gray-500"
+                ><span class="sr-only">Discord</span
+                ><svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
+                  <path
+                    d="M20.222 0c1.406 0 2.54 1.137 2.607 2.475V24l-2.677-2.273-1.47-1.338-1.604-1.398.67 2.205H3.71c-1.402 0-2.54-1.065-2.54-2.476V2.48C1.17 1.142 2.31.003 3.715.003h16.5L20.222 0zm-6.118 5.683h-.03l-.202.2c2.073.6 3.076 1.537 3.076 1.537-1.336-.668-2.54-1.002-3.744-1.137-.87-.135-1.74-.064-2.475 0h-.2c-.47 0-1.47.2-2.81.735-.467.203-.735.336-.735.336s1.002-1.002 3.21-1.537l-.135-.135s-1.672-.064-3.477 1.27c0 0-1.805 3.144-1.805 7.02 0 0 1 1.74 3.743 1.806 0 0 .4-.533.805-1.002-1.54-.468-2.14-1.404-2.14-1.404s.134.066.335.2h.06c.03 0 .044.015.06.03v.006c.016.016.03.03.06.03.33.136.66.27.93.4.466.202 1.065.403 1.8.536.93.135 1.996.2 3.21 0 .6-.135 1.2-.267 1.8-.535.39-.2.87-.4 1.397-.737 0 0-.6.936-2.205 1.404.33.466.795 1 .795 1 2.744-.06 3.81-1.8 3.87-1.726 0-3.87-1.815-7.02-1.815-7.02-1.635-1.214-3.165-1.26-3.435-1.26l.056-.02zm.168 4.413c.703 0 1.27.6 1.27 1.335 0 .74-.57 1.34-1.27 1.34-.7 0-1.27-.6-1.27-1.334.002-.74.573-1.338 1.27-1.338zm-4.543 0c.7 0 1.266.6 1.266 1.335 0 .74-.57 1.34-1.27 1.34-.7 0-1.27-.6-1.27-1.334 0-.74.57-1.338 1.27-1.338z"
+                  ></path></svg
+              ></a>
+              <a
+                href="https://www.youtube.com/@mvti333"
+                target="_blank"
+                class="ml-6 text-gray-400 hover:text-gray-500"
+                ><span class="sr-only">Youtube</span
+                ><svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
+                  <path
+                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                  ></path></svg
+              ></a>
+            </div>
+            <div class="mt-8">
+              <p class="text-base leading-6 text-center text-gray-400">
+                &copy; 2020-2022 VolersPvP. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": { "pageProps": {} },
+        "page": "/",
+        "query": {},
+        "buildId": "hwVWM-AwmHzdL8eQPCLQY",
+        "isFallback": false,
+        "customServer": true,
+        "gip": true
+      }
+    </script>
+    <script
+      nomodule=""
+      src="js/runtime-polyfills-a449d8ea59f8cabaea86.js"
+    ></script>
+    <script async="" data-next-page="/_app" src="js/pages-_app.js"></script>
+    <script async="" data-next-page="/" src="js/pages-index.js"></script>
+    <script src="js/runtime-webpack-ba1a2c47371316e3142f.js" async=""></script>
+    <script src="js/chunks-framework.ff834a0bdd680269bce4.js" async=""></script>
+    <script src="js/chunks-commons.7450d762d0a91bae8bd1.js" async=""></script>
+    <script
+      src="js/chunks-12bbd2dce5a08f38715b78b5b5b0f2c04db3dd76.8d85629742f2141fd44e.js"
+      async=""
+    ></script>
+    <script
+      src="js/chunks-25906c08925ced395b34fb76703d71ec23469ee9.ac29a6d7f9aeb72019c5.js"
+      async=""
+    ></script>
+    <script src="js/runtime-main-65369f8634a0d8b2b674.js" async=""></script>
+    <script
+      src="js/chunks-b00ae7833b8d5516977e8862f89522570f6a82b2.be62a2c5eaf1ae4a60f9.js"
+      async=""
+    ></script>
+    <script
+      src="js/chunks-1eedc9b748a18eb77076d394861e93290009744d.920fb9e74f315c5b7594.js"
+      async=""
+    ></script>
+    <script
+      src="js/chunks-9ce2a564b0f88394df0aed49bea738cae9e193fc.418388363a42b7ef49c2.js"
+      async=""
+    ></script>
+    <script src="js/hwVWM-AwmHzdL8eQPCLQY-_buildManifest.js" async=""></script>
+    <script src="js/hwVWM-AwmHzdL8eQPCLQY-_ssgManifest.js" async=""></script>
+  </body>
 </html>
